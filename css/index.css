@@ -1,0 +1,55 @@
+/*===========header============*/
+#header{width: 16rem;background: #F08A24;overflow: hidden;position: relative;height: 8rem;}
+#header .h_box{width: 64rem;height: 8rem;position: absolute;left: 0;}
+#header .index{position: absolute;overflow: hidden;bottom: 0;width: 16rem;background: rgba(0,0,0,0.5);text-align: center;}
+#header img{width:16rem;height: 8rem;float: left;}
+#header .index span{display: inline-block;height: 0.3rem;width: 0.3rem;background: rgba(255,255,255,0.7);border-radius: 50%;margin: 0.3rem;}
+
+/*============nav==================*/
+#nav{height: 2rem;width: 16rem;line-height: 2rem;overflow: hidden;background: #fff;opacity: 0.9;}
+#nav ul{width: 20rem;}
+#nav li{float: left;width: 4rem;}
+#nav p{font-size: 0.7rem;width: 4rem;height: 2rem;text-align: center;font-weight: ;}
+
+/*============nav==================*/
+#nav_c{height: 2rem;position: relative;top: 0;width: 16rem;line-height: 2rem;overflow: hidden;display: none;background: #fff;z-index: 9;}
+#nav_c ul{width: 20rem;}
+#nav_c li{float: left;width: 4rem;}
+#nav_c p{font-size: 0.7rem;width: 4rem;height: 2rem;text-align: center;font-weight: ;}
+
+
+
+/*==========content=================*/
+#content{overflow:hidden;background: url(../img/bg1.jpg) repeat center center;padding-bottom: 0.1rem;}
+#content .box_one{background: #fff;margin:0 auto;margin-top: 0.5rem;width: 14.6rem;box-shadow: 0 0 1px 2px #DCDCDC;}
+#content .box_five{background: #fff;margin:0 auto;margin-top: 0.5rem;width: 14.6rem;box-shadow: 0 0 1px 2px #DCDCDC;}
+#content .box_ten{background: #fff;margin:0 auto;margin-top: 0.5rem;width: 14.6rem;box-shadow: 0 0 1px 2px #DCDCDC;}
+#content .box_fifty{background: #fff;margin:0 auto;margin-top: 0.5rem;width: 14.6rem;box-shadow: 0 0 1px 2px #DCDCDC;}
+#content .box_title{height: 1.5rem;line-height: 1.5rem;font-size: 0.7rem;color: #f60;}
+#content .box_title span:nth-child(1){display: block;height: 0.05rem;width: 2.8rem;background: #fff;float: left;margin-top: 0.7rem;margin-left: 2rem;background: #f03;}
+#content .box_title span:nth-child(3){display: block;height: 0.05rem;width: 2.8rem;background: #fff;float: right;margin-top: 0.7rem;margin-right: 2rem;background: #f03;}
+#content .box_title span:nth-child(2){display: block;height: 1.5rem;width: 5rem;float: left;text-align: center;border-radius: 0.8rem;color: #f03;}
+#content table{width: 14.6rem;table-layout: fixed;border-collapse: collapse;letter-spacing: 0;}
+#content table td{height: 5rem;border: 1px solid #eee;padding-top: 0.2rem;padding: 0.2rem;position: relative;}
+#content table td h6{padding: 0 0.1rem;font-size: 0.8rem;}
+#content table td p{font-size: 12px;color: #666;padding: 0 0.1rem;}
+#content table td .img_box{height: 4rem;width: 100%;vertical-align: middle;}
+#content table td img{width: 100%;vertical-align: middle;display: inline-block;}
+#content table td span{height: 100%;width: 0;display: inline-block;vertical-align: middle;}
+#content table td i{position: absolute;bottom: 0.5rem;right: 0.3rem;display: block;height: 1.5rem;width: 1.5rem;font-size: 1.5rem;opacity: 0.7;}
+
+
+
+/*===========footer=======================*/
+#footer{height: 6rem;background: url(../img/34.jpg) repeat-y center center;padding: 1rem 0;letter-spacing: 0;}
+#footer .f_box{background: rgba(255,255,255,0.9);padding: 0.5rem 0;}
+#footer .f_box h6{text-align: center;line-height: 1.3rem;}
+#footer .f_box p{font-size: 0.6rem;line-height: 0.8remrem;padding: 0 0.6rem;}
+
+
+
+/*============dingbu=================*/
+#dingbu{position: fixed;bottom: 1rem;right: 1rem;display: none;}
+#dingbu img{height: 3rem;}
+
+
